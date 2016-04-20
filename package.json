@@ -1,0 +1,61 @@
+{
+  "scripts": {
+    "typings-install": "node_modules/typings/dist/bin.js install",
+    "postinstall": "npm run typings-install",
+    "build": "node_modules/webpack/bin/webpack.js --inline --colors --progress --display-error-details --display-cached",
+    "watch": "npm run build -- --watch",
+<<<<<<< HEAD
+    "start": "./node_modules/.bin/webpack-dev-server --inline --colors --progress --display-error-details --display-cached --port 3000  "
+=======
+    "server": "node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --colors --progress --display-error-details --display-cached --port 3000  --content-base src",
+    "start": "npm run server"
+>>>>>>> 6fe13b9a4dcb85936478895e7b5a3853c5c4f86f
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "awesome-typescript-loader": "~0.16.2",
+    "es6-promise": "3.0.2",
+    "es6-shim": "0.35.0",
+    "reflect-metadata": "0.1.2",
+    "source-map-loader": "^0.1.5",
+    "typescript": "~1.8.9",
+    "typings": "^0.7.9",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0",
+    "webpack-merge": "^0.8.4",
+    "bootstrap": "^3.3.6",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.8.5",
+    "jquery": "^2.2.3",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7"
+
+  },
+  "dependencies": {
+    "angular2": "2.0.0-beta.15",
+    "core-js": "^2.2.0",
+    "rxjs": "5.0.0-beta.2",
+<<<<<<< HEAD
+    "zone.js": "~0.6.10"
+  }
+
+=======
+    "zone.js": "~0.6.11"
+  },
+  "keywords": [
+    "Angular2",
+    "angular2-seed",
+    "official angular 2 seed",
+    "official angular2 seed"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angular/angular2-seed.git"
+  },
+  "bugs": {
+    "url": "https://github.com/angular/angular2-seed/issues"
+  },
+  "homepage": "https://github.com/angular/angular2-seed#readme"
+>>>>>>> 6fe13b9a4dcb85936478895e7b5a3853c5c4f86f
+}
